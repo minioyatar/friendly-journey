@@ -14,6 +14,15 @@
   <link rel="stylesheet" href="<?php echo SITE_URL_FILE; ?>dist/css/ionicons.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="<?php echo SITE_URL_FILE; ?>dist/css/AdminLTE.min.css">
+  <!-- DataTables -->
+  <link rel="stylesheet" href="<?php echo SITE_URL_FILE; ?>plugins/datatables/dataTables.bootstrap.css">  
+  <!-- daterange picker -->
+  <link rel="stylesheet" href="<?php echo SITE_URL_FILE; ?>plugins/daterangepicker/daterangepicker-bs3.css">
+  <!-- JQueryUI style -->
+  <link rel="stylesheet" href="<?php echo SITE_URL_FILE; ?>dist/css/jquery-ui.min.css">
+  <!-- Include one of jTable styles. -->
+  <link href="<?php echo SITE_URL_FILE; ?>plugins/jtable.2.4.0/themes/metro/darkorange/jtable.min.css" rel="stylesheet" type="text/css" />
+
     <!-- AdminLTE Skins. Choose a skin from the css/skins
     folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="<?php echo SITE_URL_FILE; ?>dist/css/skins/_all-skins.min.css">

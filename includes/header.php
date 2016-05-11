@@ -18,6 +18,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </a>
+
+              <h4 style="float:left; margin-left:30px; margin-top:16px; color:#fff"><b> 
+                <?php 
+                    echo date("M d Y") . " | " . date("h:i:sa");
+                    ?>
+              </b></h4>    
+                            
               <div class="navbar-custom-menu">
                 <ul class="nav navbar-nav">
                   <!-- Notifications: style can be found in dropdown.less -->
