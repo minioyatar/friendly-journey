@@ -1,8 +1,8 @@
 <?php
- require_once dirname(__FILE__) . '/core/init.php';
- require_once dirname(__FILE__) . '/includes/metaHeader.php';
- require_once dirname(__FILE__) . '/includes/header.php';
- require_once dirname(__FILE__) . '/includes/sidebar.php';
+require_once dirname(dirname(__FILE__)) . '/core/init.php';
+require_once dirname(dirname(__FILE__)) . '/includes/metaHeader.php';
+require_once dirname(dirname(__FILE__)) . '/includes/header.php';
+require_once dirname(dirname(__FILE__)) . '/includes/sidebar.php';
 ?>
       <!-- =============================================== -->
 
@@ -48,22 +48,15 @@
                     <div class="box-footer">
                       <div class="row">
                         <div class="col-md-12">
-                          <div class="form-group ">
-                            <p class="text-red"><b>* Required fields</b></p>
+                          <div class="">
+                            <p class="pull-left text-red"><b>* Required fields</b></p>
                           </div>
-                          
-                              <div class="form-group ">
-                                  <span class="input-group-btn">
-                                    <button class="btn btn-info" type="button">Preview Petty Cash</button>
+                          <div class="pull-right">
+                                  <span class="input-group-btn ">
+                                    <button class="btn btn-info " type="button">Preview PO</button>
+                                    <button class="btn btn-info " type="button" style="margin-left: 30px;">Generate PO</button>
                                   </span>
-                              </div><!-- /.form-group --> 
-
-                              <div class="form-group ">
-                                  <span class="input-group-btn">
-                                    <button class="btn btn-info" type="button">Generate Petty Cash</button>
-                                  </span>
-                              </div><!-- /.form-group -->
-                          
+                          </div>
                         </div>
                       </div>
                     </div><!-- /.box-footer-->
@@ -77,5 +70,5 @@
 
   <!-- =============================================== -->
 <?php
- require_once dirname(__FILE__) . '/includes/footer.php';
+require_once dirname(dirname(__FILE__)) . '/includes/footer.php';
 ?>

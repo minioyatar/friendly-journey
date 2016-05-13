@@ -65,7 +65,7 @@
                                     <div class="form-group pull-right">
                                       <div class="col-lg-5 input-group">
                                           <span class="input-group-btn">
-                                            <button class="btn btn-info" type="button">Add to PO</button>
+                                            <button class="btn btn-info" type="button">Add to Purchase Requisition</button>
                                           </span>
                                       </div><!-- /input-group -->
                                     </div><!-- /.form-group --> 
@@ -108,20 +108,14 @@
                     <div class="box-footer">
                       <div class="row">
                         <div class="col-md-12">
-                          <div class="col-md-6">
+                          <div class="">
                             <p class="pull-left text-red"><b>* Required fields</b></p>
                           </div>
-                          <div class="col-md-6 pull-right">
-                              <div class="form-group col-md-4">
-                                  <span class="input-group-btn">
-                                    <button class="btn btn-info" type="button">Preview PO</button>
+                          <div class="pull-right">
+                                  <span class="input-group-btn ">
+                                    <button class="btn btn-info " type="button">Preview PR</button>
+                                    <button class="btn btn-info " type="button" style="margin-left: 30px;">Generate PR</button>
                                   </span>
-                              </div><!-- /.form-group --> 
-                              <div class="form-group col-md-4">
-                                  <span class="input-group-btn">
-                                    <button class="btn btn-info" type="button">Generate PO</button>
-                                  </span>
-                              </div><!-- /.form-group -->
                           </div>
                         </div>
                       </div>

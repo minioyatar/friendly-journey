@@ -122,18 +122,14 @@
                           <div class="col-md-6">
                             <p class="pull-left text-red"><b>* Required fields</b></p>
                           </div>
-                          <div class="col-md-6 pull-right">
-                              <div class="form-group col-md-4">
-                                  <span class="input-group-btn">
-                                    <button class="btn btn-info" type="button">Preview PO</button>
-                                  </span>
-                              </div><!-- /.form-group --> 
-                              <div class="form-group col-md-4">
-                                  <span class="input-group-btn">
-                                    <button class="btn btn-info" type="button">Generate PO</button>
-                                  </span>
-                              </div><!-- /.form-group -->
-                          </div>
+                      <div class="form-group pull-right">
+                        <div class="col-lg-5 input-group">
+                            <span class="input-group-btn">
+                              <a href="receiving-reports.php" class="btn btn-info" >Save Receiving Report</a>
+                              <!-- <button class="btn btn-info" type="button">Generate Receiving Report</button> -->
+                            </span>
+                        </div><!-- /input-group -->
+                      </div><!-- /.form-group --> 
                         </div>
                       </div>
                     </div><!-- /.box-footer-->

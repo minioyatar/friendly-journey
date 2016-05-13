@@ -19,6 +19,9 @@
 
                     <div class="box-header with-border">
                       <h3 class="box-title"> Product Package</h3>
+                      <div class="box-tools pull-right">
+                        <button data-widget="collapse" class="btn btn-box-tool"><i class="fa fa-minus"></i></button>
+                      </div>                      
                     </div>
 
                     <div class="box-body">
@@ -27,13 +30,13 @@
                             <div class="col-md-4">                
                               <!-- input states -->
                               <div class="form-group ">
-                                <label>Package Code</label>
-                                <input type="text" class="form-control" id="inputSuccess" placeholder="">
+                                <label>Bardcode Code</label>
+                                <input type="text" class="form-control" id="" placeholder="">
                               </div>
                               <!-- input states -->
                               <div class="form-group ">
                                 <label>Package Name</label>
-                                <input type="text" class="form-control" id="inputSuccess" placeholder="">
+                                <input type="text" class="form-control" id="" placeholder="">
                               </div>
 
                             </div><!-- /.col-md-6-->
@@ -56,7 +59,7 @@
                               <table id="" class="table table-bordered table-hover">
                                 <thead>
                                   <tr>
-                                    <th>Item Code</th>
+                                    <th>Bar Code</th>
                                     <th>Item Name</th>
                                     <th>UOM</th>
                                     <th>Quantity</th>
@@ -75,7 +78,7 @@
                                     <td>45345345345345</td>
                                     <td>Alaska Condense</td>
                                     <td>Can</td>
-                                    <td>4</td>
+                                    <td>3</td>
                                     <td>339.99</td>
                                   </tr>
                                   <tr>
@@ -89,7 +92,7 @@
                                     <td>346456456456</td>
                                     <td>Choknut</td>
                                     <td>Bag</td>
-                                    <td>4</td>
+                                    <td>7</td>
                                     <td>29.50</td>
                                   </tr>
                                 </tbody>
@@ -107,6 +110,15 @@
                             </div><!-- /.col-md-23-->
                           </div>
                           <!-- ROW 2 ENDS HERE -->
+
+                          <div class="row">
+                            <div class="col-md-2 pull-right">
+                              <div class="form-group ">
+                                <label>Package Price</label>
+                                <input type="text" class="form-control" id="" placeholder="">
+                              </div>                                
+                            </div>
+                          </div>
                           
                     </div><!-- /.box-body -->
 
@@ -127,9 +139,12 @@
               <div class="box">
                 <div class="box-header">
                   <h3 class="box-title">Registered Package</h3>
+                      <div class="box-tools pull-right">
+                        <button data-widget="collapse" class="btn btn-box-tool"><i class="fa fa-minus"></i></button>
+                      </div>                  
                 </div><!-- /.box-header -->
                 <div class="box-body">
-                  <table id="example1" class="table table-responsive table-bordered table-striped">
+                  <table id="listTable" class="table table-responsive table-bordered table-striped">
                     <thead>
                       <tr>
                         <th>ID</th>
@@ -142,8 +157,8 @@
                       <tr>
                         <td>11111</td>
                         <td>Summer Package 1</td>
-                        <td>Fruit Cocktail, Alaska Condense, Snackbar, Choknut, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem vel ad, pariatur perferendis eveniet! Nihil repellendus beatae hic voluptas, quo et ex similique vitae nulla! Temporibus sapiente, mollitia consectetur cumque
-                          Odit dolorem optio possimus nobis id, iure rem quae provident quisquam officia doloremque, sit impedit vel quaerat, cupiditate ad atque ex ullam. Deleniti consequuntur qui sequi, a, tempore consequatur enim!</div>
+                        <td>
+                          4 Can Fruit Cocktail, 3 can condense, 10 pack snack bar, 7 bag choknut
                         </td>
                         <td>200</td>
                       </tr>

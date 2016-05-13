@@ -17,7 +17,7 @@ require_once dirname(dirname(__FILE__)) . '/includes/sidebar.php';
           <form action="">
 
             <div class="box-header with-border">
-              <h3 class="box-title"> Accounts Payable Voucher Entry</h3>
+              <h3 class="box-title"> Check Voucher</h3>
             </div>
 
             <div class="box-body">
@@ -108,14 +108,7 @@ require_once dirname(dirname(__FILE__)) . '/includes/sidebar.php';
 
                <div class="row">
                 <div class="col-md-12">
-                      <div class="form-group pull-right">
-                        <div class="input-group">
-                            <span class="input-group-btn">
-                              <button id="addRowTable" class="btn btn-info" type="button">Add Entry</button>
-                            </span>
-                        </div><!-- /input-group -->
-                      </div><!-- /.form-group --> 
-                  <table id="accountsPayableVoucherTbl" class="table table-bordered table-hover">
+                  <table id="" class="table table-bordered table-hover">
                     <thead>
                       <tr>
                         <th>GL Account Code</th>
@@ -128,27 +121,41 @@ require_once dirname(dirname(__FILE__)) . '/includes/sidebar.php';
                       </tr>
                     </thead>
                     <tbody>
-
+                      <tr>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>10</td>
+                      </tr>
+                      <tr>  
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                      </tr>
                     </tbody>
                   </table>
-
                 </div>
               </div> 
 
             </div><!-- /.box-body -->
 
                   <div class="box-footer">
-                      <p class="pull-left text-red"><b>* Required fields</b></p>
+<!--                       <p class="pull-left text-red"><b>* Required fields</b></p>
                       <div class="form-group pull-right">
                         <div class="col-lg-5 input-group">
                             <span class="input-group-btn">
                               <button class="btn btn-info" type="button">Save</button>
                             </span>
-                        </div><!-- /input-group -->
-                      </div><!-- /.form-group -->                 
-                  </div><!-- /.box-footer-->
-                </form>
-              </div><!-- /.box -->
+                        </div>
+                      </div> -->           
+                  </div>
 
           </form>
         </div><!-- /.box -->

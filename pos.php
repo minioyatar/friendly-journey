@@ -348,7 +348,7 @@ itemCount = 0;
 /* 
   // keyCodes
   f1  112 help
-  f2  113
+  f2  113 payment
   f3  114 xxxxx
   f4  115 DISCOUNT
   f5  116 xxxxx
@@ -356,17 +356,18 @@ itemCount = 0;
   f7  118 CHECK
   f8  119 GIFT CERTIFICATE
   f9  120  CREDIT CARD
-  f10   121 CHARGED
+  f10   121 CHARGED  
   f11   122 xxxxx
-  f12   123 payment
+  f12   123 xxxxx
 */
   window.onkeypress = function(e) {//press f9
-      if ((e.which || e.keyCode) == 120) {//cash out
+      if ((e.which || e.keyCode) == 113) {//cash out
         $('#cash-payment').empty()
           $('#modal-window').modal();
-      }else if ((e.which || e.keyCode) == 112) {//call help
+      }
+      // else if ((e.which || e.keyCode) == 11) {//call help
           // $('#modal-window').modal();
-      }    
+      // }    
   }
 
   $('#ok-modal').click(function (e) {//ok in modal window

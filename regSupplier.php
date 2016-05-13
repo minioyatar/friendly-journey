@@ -18,27 +18,33 @@
                   
                     <div class="box-header with-border">
                       <h3 class="box-title"> Supplier</h3>
+                      <div class="box-tools pull-right">
+                        <button data-widget="collapse" class="btn btn-box-tool"><i class="fa fa-minus"></i></button>
+                      </div>
                     </div>
 
                     <div class="box-body">
                         <div class="row">
                           <div class="col-md-6">
                             
-                            <div class="form-group "><!-- has-success -->
-                              <input type="text" class="form-control" id="inputSuccess" placeholder="Supplier Name">
+                            <div class="form-group ">
+                              <label>Supplier Name</label>
+                              <input type="text" class="form-control" id="inputSuccess" placeholder="">
                             </div>
                             
-                            <div class="form-group "><!-- has-success -->
-                              <input type="text" class="form-control" id="inputSuccess" placeholder="Address">
+                            <div class="form-group ">
+                              <label>Address</label>
+                              <input type="text" class="form-control" id="inputSuccess" placeholder="">
                             </div>
                             
-                            <div class="form-group "><!-- has-success -->
-                              <input type="text" class="form-control" id="inputSuccess" placeholder="Tax Identification No.">
+                            <div class="form-group ">
+                              <label>Tax Identification No.</label>
+                              <input type="text" class="form-control" id="inputSuccess" placeholder="">
                             </div>
 
                             <div class="form-group">
                               <select class="form-control">
-                                <option selected="selected">Business Type</option>
+                                <option selected="selected">Select Business Type</option>
                                 <option>Individual</option>
                                 <option>Corporate</option>
                               </select>
@@ -46,7 +52,7 @@
 
                             <div class="form-group">
                               <select class="form-control">
-                                <option selected="selected">Tax Type</option>
+                                <option selected="selected">Select Tax Type</option>
                                 <option>VAT</option>
                                 <option>VAt-Exempt</option>
                                 <option>Percentage Tax</option>
@@ -56,12 +62,15 @@
 
                           <div class="col-md-6">
                               <div class="form-group ">
-                                <input type="text" class="form-control" id="" placeholder="Contact Person">
+                                <label>Contact Person</label>
+                                <input type="text" class="form-control" id="" placeholder="">
                               </div>
                               <div class="form-group ">
-                                <input type="text" class="form-control" id="" placeholder="Contact Number">
+                                <label>Contact Number</label>
+                                <input type="text" class="form-control" id="" placeholder="">
                               </div>
                               <div class="form-group">
+                                <label>Add new Discount</label>
                                 <div class="col-lg-6 input-group">
                                   <input type="text" class="form-control" placeholder="%">
                                   <span class="input-group-btn">
@@ -70,18 +79,20 @@
                                 </div><!-- /input-group -->
                               </div><!-- /.form-group -->
                               <div class="form-group">
-                                <div class="col-lg-6 input-group">
+                                <div class="col-lg-3 input-group">
                                   <table id="" class="table table-bordered table-hover">
                                     <thead>
                                       <tr>
                                         <th>Discount Table</th>
                                       </tr>
                                     </thead>
-                                    <tbody>
+                                    <tbody style="text-align:center">
                                       <tr>
-                                        <td></td>
+                                        <td>5%</td>
                                       </tr>
-                                      
+                                      <tr>
+                                        <td>3%</td>
+                                      </tr>
                                     </tbody>
                                   </table>
                                 </div>
@@ -108,9 +119,12 @@
               <div class="box">
                 <div class="box-header">
                   <h3 class="box-title">Registered Suppliers</h3>
+                      <div class="box-tools pull-right">
+                        <button data-widget="collapse" class="btn btn-box-tool"><i class="fa fa-minus"></i></button>
+                      </div>                  
                 </div><!-- /.box-header -->
                 <div class="box-body">
-                  <table id="example1" class="table table-bordered table-striped">
+                  <table id="listTable" class="table table-bordered table-striped">
                     <thead>
                       <tr>
                         <th>ID</th>
@@ -126,11 +140,10 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td>Trident</td>
-                        <td>Internet
-                          Explorer 4.0</td>
+                        <td>1234</td>
+                        <td>Proctor And Gamble</td>
                         <td>Win 95+</td>
-                        <td> 4</td>
+                        <td> 1234567890-123</td>
                         <td>X</td>
                         <td>Internet
                           Explorer 4.0</td>
@@ -139,9 +152,8 @@
                         <td>X</td>                        
                       </tr>
                       <tr>
-                        <td>Trident</td>
-                        <td>Internet
-                          Explorer 5.0</td>
+                        <td>3421</td>
+                        <td>Johnson and Johnson</td>
                         <td>Win 95+</td>
                         <td>5</td>
                         <td>C</td>
@@ -152,9 +164,8 @@
                         <td>C</td>                        
                       </tr>
                       <tr>
-                        <td>Trident</td>
-                        <td>Internet
-                          Explorer 5.5</td>
+                        <td>2313</td>
+                        <td>San Miguel</td>
                         <td>Win 95+</td>
                         <td>5.5</td>
                         <td>A</td>
@@ -165,9 +176,8 @@
                         <td>A</td>                        
                       </tr>
                       <tr>
-                        <td>Trident</td>
-                        <td>Internet
-                          Explorer 6</td>
+                        <td>3423</td>
+                        <td>Jack n Jill</td>
                         <td>Win 98+</td>
                         <td>6</td>
                         <td>A</td>
@@ -178,8 +188,8 @@
                         <td>A</td>
                       </tr>
                       <tr>
-                        <td>Trident</td>
-                        <td>Internet Explorer 7</td>
+                        <td>3423</td>
+                        <td>Universal Robina</td>
                         <td>Win XP SP2+</td>
                         <td>7</td>
                         <td>A</td>
@@ -189,8 +199,8 @@
                         <td>A</td>
                       </tr>
                       <tr>
-                        <td>Trident</td>
-                        <td>AOL browser (AOL desktop)</td>
+                        <td>2342</td>
+                        <td>Emperador</td>
                         <td>Win XP</td>
                         <td>6</td>
                         <td>A</td>

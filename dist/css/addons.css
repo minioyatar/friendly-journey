@@ -100,3 +100,24 @@ overflow-y: auto;
 width: 20%;
 float: left;
 }
+
+.table thead th, table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled {
+    text-align: center;
+    vertical-align: middle;
+}
+[contenteditable="true"]{
+  background-color: #EEEEEE;
+}
+[contenteditable="true"]:hover{
+  background-color: #E99439;
+}
+    [contenteditable="true"]:active,[contenteditable="true"]:focus{
+    background-color: #F7BE64;
+    }
+    
+.td-label{
+  background-color:#E9897E;
+}
+.inline-txtbox{
+  width: 120px;
+}

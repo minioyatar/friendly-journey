@@ -17,7 +17,7 @@
                 <form action="">
                   
                     <div class="box-header with-border">
-                      <h3 class="box-title"> Generate PO</h3>
+                      <h3 class="box-title"> Generate Purchase Order</h3>
                       <?php //echo dirname(dirname(__FILE__)); ?>
                     </div>
 
@@ -101,20 +101,14 @@
                     <div class="box-footer">
                       <div class="row">
                         <div class="col-md-12">
-                          <div class="col-md-6">
+                          <div class="">
                             <p class="pull-left text-red"><b>* Required fields</b></p>
                           </div>
-                          <div class="col-md-6 pull-right">
-                              <div class="form-group col-md-4">
-                                  <span class="input-group-btn">
-                                    <button class="btn btn-info" type="button">Preview PO</button>
+                          <div class="pull-right">
+                                  <span class="input-group-btn ">
+                                    <button class="btn btn-info " type="button">Preview PO</button>
+                                    <button class="btn btn-info " type="button" style="margin-left: 30px;">Generate PO</button>
                                   </span>
-                              </div><!-- /.form-group --> 
-                              <div class="form-group col-md-4">
-                                  <span class="input-group-btn">
-                                    <button class="btn btn-info" type="button">Generate PO</button>
-                                  </span>
-                              </div><!-- /.form-group -->
                           </div>
                         </div>
                       </div>
@@ -122,6 +116,56 @@
 
                 </form>
               </div><!-- /.box -->
+
+              <div class="box">
+                <div class="box-header">
+                  <h3 class="box-title">Purchase Order List</h3>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                  <table id="listTable" class="table table-responsive table-bordered table-striped">
+                    <thead>
+                      <tr>
+                        <th>PO No.</th>
+                        <th>Supplier Name</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div><!-- /.box-body -->
+              </div><!-- /.box -->               
             </div>  
           </div><!-- row-->
         </section><!-- /.content -->

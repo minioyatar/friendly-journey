@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="<?php echo SITE_URL_FILE; ?>dist/css/ionicons.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="<?php echo SITE_URL_FILE; ?>dist/css/AdminLTE.min.css">
+    <!-- iCheck for checkboxes and radio inputs -->
+    <link rel="stylesheet" href="<?php echo SITE_URL_FILE; ?>plugins/iCheck/all.css">  
   <!-- DataTables -->
   <link rel="stylesheet" href="<?php echo SITE_URL_FILE; ?>plugins/datatables/dataTables.bootstrap.css">  
   <!-- daterange picker -->
@@ -34,4 +36,10 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
         <link rel="stylesheet" type="text/css" href="<?php echo SITE_URL_FILE; ?>dist/css/addons.css">
+
+<style type="text/css">
+#modal-window {display:none;}
+/* Overlay */
+#simplemodal-overlay {background-color:#000;}
+</style>        
       </head>
